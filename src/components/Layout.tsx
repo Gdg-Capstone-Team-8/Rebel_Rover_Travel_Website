@@ -1,13 +1,17 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
-    <div>
-      <div>Navbar here</div>
-      <div>
+    <div className="relative max-h-max min-h-screen font-[Poppins]">
+      <div className="absolute w-full">
+        <Navbar />
+      </div>
+      <div className="">
         <Outlet />
       </div>
-      <div>Footer here</div>
+      <Footer />
     </div>
   );
 };
