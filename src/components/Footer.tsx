@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <div className="flex flex-col flex-wrap items-start justify-around gap-x-3 gap-y-6 px-6 py-9 md:flex-row">
         <div className="w-[437px] md:w-[500px]">
-          <img src={logo} className="w-[400px]" alt="rebel rover logo" />
+          <img src={logo} className="w-[300px]" alt="rebel rover logo" />
           <p className="text-[18px] break-words">
             Explore the world with Rebel Rover. Your adventure starts here.
           </p>
