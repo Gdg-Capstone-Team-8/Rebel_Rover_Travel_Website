@@ -14,12 +14,8 @@ const DestinationCard = ({
 }: {
   destination: Destination;
 }) => {
-    
-  const imageUrl = (imgNum: string) => {
-    const first = `src/assets/Package/images/${imgNum}.jpg`;
-    console.log(first);
-    return first;
-  };
+  const imageUrl = (imgNum: string) =>
+    `src/assets/Package/images/${imgNum}.jpg`;
 
   const rating = Math.random() * 2 + 3;
 

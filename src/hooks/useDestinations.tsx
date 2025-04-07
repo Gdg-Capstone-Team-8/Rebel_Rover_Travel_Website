@@ -24,9 +24,10 @@ const useDestinations = () => {
       .catch((err: AxiosError) => {
         if (err.name !== "CanceledError") {
           console.error(err);
+          setIsLoading(false);
         }
-        setIsLoading(false);
       });
+
     return () => controller.abort();
   }, []);
 
