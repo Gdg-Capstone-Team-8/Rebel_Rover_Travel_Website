@@ -1,63 +1,50 @@
 # Rebel Rover Travel Website
 
-## Project Overview
-Rebel Rover is a modern travel website built using Next.js. The project aims to provide users with an intuitive platform to explore travel destinations, book trips, and access travel-related resources. The website is designed to be responsive, fast, and user-friendly, leveraging the power of react.js.
+This branch introduces the `PackagePage` and reusable components like `Subscribe.tsx` to enhance the functionality and modularity of the project.
 
-## Team Guidelines
+## Features
 
-### 1. Setting Up the Project
-- Clone the repository:  
-  ```bash
-  git clone <repository-url>
-  ```
-- Install dependencies:  
-  ```bash
-  npm install
-  ```
-- Start the development server:  
-  ```bash
-  npm run dev
+### 1. **PackagePage**
+- A dedicated page to display travel packages.
+- Includes dynamic rendering of package details.
+- Styled for a user-friendly experience.
+
+### 2. **Reusable Components**
+- **Subscribe.tsx**: A subscription component that can be used across multiple pages.
+  - Includes a form for users to subscribe to newsletters or updates.
+  - Fully responsive and customizable.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Switch to this branch:
+   ```bash
+   git checkout <branch-name>
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+- To view the `PackagePage`, navigate to `/packages` in the application.
+- Use the `Subscribe` component by importing it into any page:
+  ```tsx
+  import Subscribe from '../components/Subscribe';
+
+  const ExamplePage = () => (
+    <div>
+      <Subscribe />
+    </div>
+  );
+
+  export default ExamplePage;
   ```
 
-### 2. Branching Strategy
-- Always create a new branch for your tasks. Use the following naming convention:  
-  ```
-  <feature|bugfix|hotfix>/<short-description>
-  ```
-  Example: `feature/add-navbar`, `bugfix/fix-login-error`
+## Contributing
 
-- To create a new branch:  
-  ```bash
-  git checkout -b <branch-name>
-  ```
-
-### 3. Working on Tasks
-- Ensure your branch is up-to-date with the `main` branch:  
-  ```bash
-  git pull origin main
-  ```
-- Commit your changes with clear and descriptive messages:  
-  ```bash
-  git commit -m "Add feature: Implement navbar component"
-  ```
-
-### 4. Code Reviews and Merging
-- Push your branch to the remote repository:  
-  ```bash
-  git push origin <branch-name>
-  ```
-- Create a pull request (PR) to the `main` branch.
-- Assign at least one team member to review your PR.
-- Address any feedback and ensure all checks pass before merging.
-
-### 5. Best Practices
-- Follow the project's coding standards and linting rules.
-- Write clear and concise comments for complex code.
-- Test your changes thoroughly before creating a PR.
-- Avoid committing sensitive information or large files.
-
-### 6. Communication
-- Use the project management tool (e.g., Trello, Jira) to track your tasks.
-- Update the team regularly on your progress during stand-ups or via the designated communication channel.
-
-By following these guidelines, we can ensure smooth collaboration and maintain high-quality code throughout the project.  
+Feel free to submit issues or pull requests for improvements.
