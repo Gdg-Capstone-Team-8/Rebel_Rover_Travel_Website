@@ -12,7 +12,7 @@ const Package = () => {
   return (
     <div>
       {/*The image with a text*/}
-      <div className="flex h-screen w-full flex-col items-center justify-center bg-[url(@/assets/Package/unsplash_dHHhDXaCh70.svg)] bg-cover bg-right bg-no-repeat">
+      <div className="flex h-[85vh] w-full flex-col items-center justify-center bg-[url(@/assets/Package/unsplash_dHHhDXaCh70.svg)] bg-cover bg-right bg-no-repeat">
         <h1 className="text-4xl font-bold text-white drop-shadow-xl drop-shadow-[#11111196] md:text-6xl">
           Travel Packages
         </h1>
