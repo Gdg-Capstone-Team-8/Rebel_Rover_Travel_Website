@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Gallery = () => {
   return (
     <div className="mt-10 sm:mt-25">
@@ -11,23 +9,23 @@ export const Gallery = () => {
           Unforgettable moment
         </p>
       </div>
-      <div className="mt-10 w-screen h-screen grid grid-cols-4 grid-rows-2 gap-2 px-30">
-        <div className="flex bg-cover bg-center col-span-2 row-span-2 items-end rounded-[10px] bg-[url(@/assets/about/bali.png)]">
-          <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
+      <div className="mt-10 justify-center w-screen h-screen grid px-3 grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-2 lg:px-30">
+        <div className="flex object-fill bg-no-repeat size-full lg:bg-cover bg-center col-span-2 row-span-2 items-end rounded-[10px] bg-[url(@/assets/about/bali.png)]">
+          <p className="ml-5 absolute align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
             Bali
           </p>
         </div>
-        <div className="grid col-span-2 items-end rounded-[10px] bg-[url(@/assets/about/dubai.png)] bg-cover bg-no-repeat">
+        <div className="grid col-span-2 size-full items-end rounded-[10px] bg-[url(@/assets/about/dubai.png)] lg:bg-cover bg-no-repeat">
             <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
               Dubai
             </p>
           </div>
-          <div className="flex bg-no-repeat bg-cover bg-center items-end rounded-[10px] bg-[url(@/assets/about/paris.png)]">
+          <div className="flex bg-no-repeat lg:bg-cover bg-center items-end rounded-[10px] bg-[url(@/assets/about/paris.png)]">
               <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
                 Paris
               </p>
             </div>
-            <div className="flex bg-no-repeat bg-cover items-end rounded-[10px] bg-[url(@/assets/about/italy.png)]">
+            <div className="flex  bg-no-repeat lg:bg-cover items-end rounded-[10px] bg-[url(@/assets/about/italy.png)]">
               <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
                 Italy
               </p>

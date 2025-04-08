@@ -1,7 +1,7 @@
 import founder from "../../assets/about/unsplash_7BjmDICVloE.png";
 export const Founder = () => {
   return (
-    <div className="flex-col sm:mt-25 place-items-center mt-10 flex h-[63.3vh] w-screen sm:flex-row sm:gap-20 gap-8 p-3">
+    <div className="flex-col sm:mt-25 place-items-center mt-10 flex sm:h-[63.3vh] h-[70vh]w-screen sm:flex-row sm:gap-20 gap-8 p-3">
       <img
         className="h-[274.5px] w-[278.5px] lg:h-[549px] lg:w-[557px]"
         src={founder}

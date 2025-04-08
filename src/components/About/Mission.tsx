@@ -1,6 +1,6 @@
 export const Mission = () => {
   return (
-    <div className="sm:mt-25 mt-10 flex flex-col flex-wrap justify-center gap-3 sm:flex-row sm:flex-nowrap">
+    <div className="relative sm:mt-25 mt-10 flex flex-col flex-wrap justify-center gap-3 sm:flex-row sm:flex-nowrap">
       <div className="work flex flex-col items-center justify-center gap-3">
         <svg
           className="h-[50px] w-[50px] sm:h-[84px] sm:w-[84px]"
