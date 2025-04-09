@@ -5,10 +5,14 @@ import facebook from "@/assets/Vector.svg";
 import youtube from "@/assets/yt.svg";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import Subscribe from "./Subscribe";
 
 const Footer = () => {
   return (
     <footer>
+      {/* Subscription */}
+      <Subscribe />
+
       {/*Logo with text*/}
       <div className="flex flex-col flex-wrap items-start justify-around gap-x-3 gap-y-6 px-6 py-9 md:flex-row">
         <div className="w-[437px] md:w-[500px]">

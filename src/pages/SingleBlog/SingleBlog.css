@@ -2,7 +2,7 @@
    display: grid;
    grid-template-columns: 2fr 2fr;
    justify-self: center;
-   gap: 8%;
+   column-gap: 8%;
    border-radius: 10px;
 }
 .recentPost{

@@ -1,6 +1,5 @@
 import DestinationCard from "@/components/PackagePage/DestinationCard";
 import TipArticleCard from "@/components/PackagePage/TipArticleCard";
-import Subscribe from "@/components/Subscribe";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import useDestinations from "@/hooks/useDestinations";
@@ -98,8 +97,7 @@ const Package = () => {
         </div>
       </div>
 
-      {/* Subscription */}
-      <Subscribe />
+    
     </div>
   );
 };
