@@ -11,13 +11,13 @@ const SingleBlog = () => {
   return (
     <>
       <div
-        className="flex min-h-screen flex-col items-center justify-center bg-cover bg-center"
+        className="flex min-h-[85vh] flex-col items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           marginBottom: "120px",
         }}
       >
-        <h1 className="font-poppins mb-6 text-center text-5xl font-bold text-white">
+        <h1 className="font-poppins mb-6 text-center text-4xl font-bold text-white drop-shadow-xl drop-shadow-[#11111196] md:text-6xl">
           Travel Stories For Now and the Future
         </h1>
         <div className="space-y-2 text-lg">
