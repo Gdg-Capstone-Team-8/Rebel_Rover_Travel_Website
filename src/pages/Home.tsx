@@ -1,5 +1,5 @@
-import HeroSection from "../components/HeroSection.tsx";
-import ScrollCards from "../components/FeaturedDestinations.tsx";
+import HeroSection from "@/components/Home_components/HeroSection.tsx";
+import ScrollCards from "@/components/Home_components/FeaturedDestinations";
 import TestimonialSection from "@/components/Home_components/Testimonial.tsx";
 import TourPartners from "@/components/Home_components/TourPartners.tsx";
 import WhyChooseUs from "@/components/Home_components/WhyChooseUs.tsx";

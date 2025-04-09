@@ -5,11 +5,13 @@ import AboutUs from "./pages/AboutUs";
 import Package from "./pages/Package";
 import SingleBlog from "./pages/SingleBlog";
 import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 
 const routes = createBrowserRouter([
   {
     path: "",
     element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/about", element: <AboutUs /> },
