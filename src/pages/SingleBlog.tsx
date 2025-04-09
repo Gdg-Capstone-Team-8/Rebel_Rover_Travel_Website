@@ -4,6 +4,9 @@ import backgroundImage from "../assets/Travel stories background.svg";
 import img1 from "../assets/img1.svg";
 import "./SingleBlog.css";
 import img2 from "../assets/img2.svg";
+import img3 from "../assets/img3.svg";
+import img4 from "../assets/img4.svg";
+import img5 from "../assets/img5.svg";
 const SingleBlog = () => {
   return (
     <>
@@ -92,26 +95,26 @@ const SingleBlog = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-<div className="mt-6 border-t border-gray-300 pt-4">
-  <div className="flex justify-between items-center">
-    <div className="flex items-center space-x-2">
-      <span className="font-semibold">Tags:</span>
-      <span className="text-gray-600">Destination, Travel</span>
-    </div>
-    <div className="flex items-center space-x-4">
-      <span className="font-semibold">Share This:</span>
-      <a href="#" className="text-gray-600 hover:text-black">
-        <i className="fab fa-facebook-f"></i>
-      </a>
-      <a href="#" className="text-gray-600 hover:text-black">
-        <i className="fab fa-twitter"></i>
-      </a>
-      <a href="#" className="text-gray-600 hover:text-black">
-        <i className="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-  </div>
-</div>
+          <div className="mt-6 border-t border-gray-300 pt-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <span className="font-semibold">Tags:</span>
+                <span className="text-gray-600">Destination, Travel</span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <span className="font-semibold">Share This:</span>
+                <a href="#" className="text-gray-600 hover:text-black">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" className="text-gray-600 hover:text-black">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a href="#" className="text-gray-600 hover:text-black">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="section2">
           <div className="recentPost">
@@ -126,6 +129,47 @@ const SingleBlog = () => {
             >
               Recent Post
             </h1>
+            <div style={{paddingLeft: "40px"}} className="space-y-6" >
+              <div className="flex items-start gap-4" >
+                <img
+                  src={img3}
+                  alt="recent-post 1"
+                  className="h-[99px] w-[149px] rounded object-cover"
+                />
+                <div>
+                  <h3 className="text-lg font-medium">
+                    Travel Stories for Now and the Future
+                  </h3>
+                  <p className="text-sm text-gray-500">14 Dec 2022</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <img
+                  src={img4}
+                  alt="recent-post 2"
+                  className="h-[99px] w-[149px] rounded object-cover"
+                />
+                <div>
+                  <h3 className="text-lg font-medium">
+                    9 Popular Travel Destination on Sale in 2022
+                  </h3>
+                  <p className="text-sm text-gray-500">14 Dec 2022</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <img
+                  src={img5}
+                  alt="recent-post 3"
+                  className="h-[99px] w-[149px] rounded object-cover"
+                />
+                <div>
+                  <h3 className="text-lg font-medium">
+                    How Are We Going to Travel in 2022?
+                  </h3>
+                  <p className="text-sm text-gray-500">14 Dec 2022</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="catagories p-6 shadow-md">
             <h1
