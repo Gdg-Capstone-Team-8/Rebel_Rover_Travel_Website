@@ -1,0 +1,63 @@
+import PopoverDate from "./PopoverDate";
+import { Button } from "./ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./ui/select";
+
+const ExploreFilter = () => {
+  return (
+    <div className="mt-4 flex max-w-[700px] items-center rounded-full bg-white p-2">
+      {/* Location */}
+      <div className="flex-1">
+        <Select>
+          <SelectTrigger className="w-full border-none bg-transparent py-2 text-xs text-gray-800 shadow-none focus:outline-none">
+            <SelectValue placeholder="Location" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="loc">Location</SelectItem>
+            <SelectItem value="bali">Bali</SelectItem>
+            <SelectItem value="paris">Paris</SelectItem>
+            <SelectItem value="tokyo">Tokyo</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      {/* Divider */}
+      <div className="h-5 w-px bg-gray-300"></div>
+
+      {/* Date */}
+      <div className="flex-1 *:w-full">
+        <PopoverDate />
+      </div>
+
+      {/* Divider */}
+      <div className="h-5 w-px bg-gray-300"></div>
+
+      {/* People */}
+      <div className="flex-1">
+        <Select>
+          <SelectTrigger className="w-full border-none bg-transparent py-2 text-xs text-gray-800 shadow-none focus:outline-none">
+            <SelectValue placeholder="People" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="peo">People</SelectItem>
+            <SelectItem value="1">1</SelectItem>
+            <SelectItem value="2">2</SelectItem>
+            <SelectItem value="3">3+</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      {/* Explore Button */}
+      <Button className="font-semiBold cursor-pointer rounded-full py-6 text-xl hover:opacity-65">
+        Explore Now
+      </Button>
+    </div>
+  );
+};
+
+export default ExploreFilter;
