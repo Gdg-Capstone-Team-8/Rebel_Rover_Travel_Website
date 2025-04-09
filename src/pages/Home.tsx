@@ -1,26 +1,26 @@
-import HeroSection from '../components/HeroSection.tsx';
-import ScrollCards from '../components/FeaturedDestinations.tsx';
-import TestimonialSection from '@/components/Home_components/Testimonial.tsx';
-import TourPartners from '@/components/Home_components/TourPartners.tsx';
-import WhyChooseUs from '@/components/Home_components/WhyChooseUs.tsx';
+import HeroSection from "../components/HeroSection.tsx";
+import ScrollCards from "../components/FeaturedDestinations.tsx";
+import TestimonialSection from "@/components/Home_components/Testimonial.tsx";
+import TourPartners from "@/components/Home_components/TourPartners.tsx";
+import WhyChooseUs from "@/components/Home_components/WhyChooseUs.tsx";
 
-
- const Home = () => {
+const Home = () => {
   return (
     <main>
-      <HeroSection />
-      <ScrollCards />
+      <div className="mb-20">
+        <HeroSection />
+        <ScrollCards />
+      </div>
       <WhyChooseUs />
-      <div className="bg-white py-30"> 
+      <div className="bg-white py-30">
         <TourPartners />
       </div>
-      <div className="bg-white py-1 -mt-40"> 
+      <div className="-mt-40 bg-white py-1">
         <TestimonialSection />
       </div>
       {/* Other page content */}
     </main>
   );
-
-}
+};
 
 export default Home;

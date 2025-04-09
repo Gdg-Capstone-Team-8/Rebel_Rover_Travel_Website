@@ -195,7 +195,7 @@ export default function ScrollCards() {
       )}
 
       {/* Header */}
-      <div className="mb-8 flex items-center justify-between">
+      <div className="mt-24 mb-8 flex items-center justify-between">
         <button
           onClick={showPrevious}
           className="rounded-lg bg-white p-2 shadow transition-colors hover:bg-gray-100"
@@ -205,10 +205,10 @@ export default function ScrollCards() {
         </button>
 
         <div className="text-center">
-          <h2 className="mb-2 text-3xl xl:text-6xl font-bold">
+          <h2 className="mb-2 text-3xl font-bold xl:text-6xl">
             Explore new worlds with <br /> exotic natural scenery
           </h2>
-          <p className="mt-1 text-sm xl:text-lg text-gray-500">
+          <p className="mt-1 text-sm text-gray-500 xl:text-lg">
             Explore the world with what you love beautiful natural beauty.{" "}
           </p>
         </div>

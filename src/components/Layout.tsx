@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Layout = () => {
   return (
-    <div className="relative max-h-max min-h-screen font-[Poppins]">
+    <div className="relative max-h-max min-h-screen overflow-x-clip font-[Poppins]">
       <div className="absolute w-full">
         <Navbar />
       </div>
