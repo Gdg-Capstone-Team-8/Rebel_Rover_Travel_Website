@@ -10,7 +10,7 @@ import {
 
 const ExploreFilter = () => {
   return (
-    <div className="mt-4 flex max-w-[700px] items-center rounded-full bg-white p-2">
+    <div className="mt-4 flex max-w-[700px] flex-wrap gap-y-4 justify-center rounded-2xl items-center sm:rounded-full bg-white p-2 text-xs">
       {/* Location */}
       <div className="flex-1">
         <Select>
@@ -53,7 +53,7 @@ const ExploreFilter = () => {
       </div>
 
       {/* Explore Button */}
-      <Button className="font-semiBold cursor-pointer rounded-full py-6 text-xl hover:opacity-65">
+      <Button className="font-semiBold cursor-pointer rounded-full hover:opacity-65 sm:py-6 sm:text-xl">
         Explore Now
       </Button>
     </div>

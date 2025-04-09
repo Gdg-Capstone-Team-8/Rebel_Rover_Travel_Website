@@ -1,4 +1,4 @@
-import { Contact, Home, Menu, Newspaper, Package } from "lucide-react";
+import { Contact, Home, Info, Menu, Newspaper, Package } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   DrawerTrigger,
@@ -32,6 +32,12 @@ const CustomDrawer = () => {
             <Button>
               <Home />
               Home
+            </Button>
+          </NavLink>
+          <NavLink to={"/about"}>
+            <Button>
+              <Info />
+              About
             </Button>
           </NavLink>
           <NavLink to={"/package"}>

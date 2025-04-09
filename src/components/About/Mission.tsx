@@ -1,6 +1,6 @@
 export const Mission = () => {
   return (
-    <div className="relative sm:mt-25 mt-10 flex flex-col flex-wrap justify-center gap-3 sm:flex-row sm:flex-nowrap">
+    <div className="relative mt-10 flex flex-col flex-wrap justify-center gap-3 sm:mt-25 sm:flex-row sm:flex-nowrap">
       <div className="work flex flex-col items-center justify-center gap-3">
         <svg
           className="h-[50px] w-[50px] sm:h-[84px] sm:w-[84px]"
@@ -15,7 +15,7 @@ export const Mission = () => {
             fill="black"
           />
         </svg>
-        <h2 className="text-[24px] font-semibold text-center md:text-[48px]">
+        <h2 className="text-center text-[24px] font-semibold md:text-[48px]">
           Great team work
         </h2>
         <p className="w-[80%] text-center text-[12px] text-[#878787] sm:text-[18px]">
@@ -37,7 +37,7 @@ export const Mission = () => {
             fill="black"
           />
         </svg>
-        <h2 className="font-semibold text-center sm:text-[24px] md:text-[48px]">
+        <h2 className="text-center font-semibold sm:text-[24px] md:text-[48px]">
           Our vision
         </h2>
         <p className="w-[80%] text-center text-[12px] text-[#878787] sm:text-[18px]">
@@ -59,7 +59,7 @@ export const Mission = () => {
             fill="black"
           />
         </svg>
-        <h2 className="text-[24px] font-semibold text-center md:text-[48px]">
+        <h2 className="text-center text-[24px] font-semibold md:text-[48px]">
           Our mission
         </h2>
         <p className="w-[80%] text-center text-[12px] text-[#878787] sm:text-[18px]">

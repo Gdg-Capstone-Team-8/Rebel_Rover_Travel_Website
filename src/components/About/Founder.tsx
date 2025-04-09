@@ -1,13 +1,14 @@
 import founder from "../../assets/about/unsplash_7BjmDICVloE.png";
 export const Founder = () => {
   return (
-    <div className="flex-col sm:mt-25 place-items-center mt-10 flex sm:h-[63.3vh] h-[70vh]w-screen sm:flex-row sm:gap-20 gap-8 p-3">
+    <div className="mt-10 flex min-h-[70vh] max-h-max w-full justify-center items-center flex-col gap-8 p-3 sm:mt-25 sm:h-[63.3vh] sm:flex-row sm:gap-20">
       <img
         className="h-[274.5px] w-[278.5px] lg:h-[549px] lg:w-[557px]"
         src={founder}
       />
-      <div className="flex flex-col gap-4 p-2 w-[80vw] sm:w-[50vw]">
-        <svg className="w-[40px] h-[32px] lg:w-[81px] lg:h-[65px]"
+      <div className="flex w-[80vw] flex-col gap-4 p-2 sm:w-[50vw]">
+        <svg
+          className="h-[32px] w-[40px] lg:h-[65px] lg:w-[81px]"
           xmlns="http://www.w3.org/2000/svg"
           width="81"
           height="65"
@@ -19,22 +20,24 @@ export const Founder = () => {
             fill="black"
           />
         </svg>
-        <p className="sm:text-[18px] text-[12px]  text-[#484848]">
+        <p className="text-[12px] text-[#484848] sm:text-[18px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           porttitor sapien et urna tincidunt fringilla. Vivamus at augue
           interdum, blandit arcu quis, laoreet ipsum. In eu ipsum urna.
           Suspendisse suscipit est et neque.
         </p>
-        <p className="sm:text-[18px] text-[12px] text-[#484848]">
+        <p className="text-[12px] text-[#484848] sm:text-[18px]">
           Mauris tempor tellus ante, ut fermentum erat gravida vel. Class aptent
           taciti sociosqu ad litora torquent per conubia nostra, per inceptos
           himenaeos. Aenean nec justo dui. Ut et consequat dui, a malesuada
           ipsum. Pellentesque nec turpis viverra, blandit mi a, accumsan justo.
         </p>
-        <p className="font-semibold text-[20px] sm:text-[36px] text-black">
-        Siti Sarah
-        <span className="font-normal block sm:text-[18px] text-[12px] text-[#484848]">Founder Travosca</span>
-        </p>     
+        <p className="text-[20px] font-semibold text-black sm:text-[36px]">
+          Siti Sarah
+          <span className="block text-[12px] font-normal text-[#484848] sm:text-[18px]">
+            Founder Travosca
+          </span>
+        </p>
       </div>
     </div>
   );

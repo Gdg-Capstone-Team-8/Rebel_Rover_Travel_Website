@@ -205,10 +205,10 @@ export default function ScrollCards() {
         </button>
 
         <div className="text-center">
-          <h2 className="mb-2 text-3xl font-bold">
+          <h2 className="mb-2 text-3xl xl:text-6xl font-bold">
             Explore new worlds with <br /> exotic natural scenery
           </h2>
-          <p className="mt-1 text-sm text-gray-500">
+          <p className="mt-1 text-sm xl:text-lg text-gray-500">
             Explore the world with what you love beautiful natural beauty.{" "}
           </p>
         </div>

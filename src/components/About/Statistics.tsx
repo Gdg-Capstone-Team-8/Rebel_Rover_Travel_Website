@@ -6,7 +6,7 @@ import award from "../../assets/about/award.svg";
 export const Statistics = () => {
   return (
     <div
-      className={`justify-evenly mt-15 mb-0 flex h-[40vh] sm:h-[65vh] w-screen shrink-0 place-items-center bg-[url(@/assets/about/unsplash_okVXy9tG3KY.png)] bg-cover bg-center bg-no-repeat lg:mt-25 lg:h-150 lg:justify-evenly lg:gap-20`}
+      className={`justify-evenly mt-15 mb-0 flex h-[40vh] sm:h-[65vh] w-full shrink-0 place-items-center bg-[url(@/assets/about/unsplash_okVXy9tG3KY.png)] bg-cover bg-center bg-no-repeat lg:mt-25 lg:h-150 lg:justify-evenly lg:gap-20`}
     >
       <div className="flex flex-col flex-wrap place-items-center lg:gap-5 p-2 text-white lg:flex-row lg:flex-nowrap">
         <img

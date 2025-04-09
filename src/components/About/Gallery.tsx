@@ -1,6 +1,6 @@
 export const Gallery = () => {
   return (
-    <div className="mt-10 sm:mt-25">
+    <div className="mt-10 mb-32 sm:mt-25">
       <div className="flex flex-col place-items-center justify-center">
         <h1 className="text-[18px] font-medium text-[#878787] md:text-[36px]">
           Gallery
@@ -9,28 +9,28 @@ export const Gallery = () => {
           Unforgettable moment
         </p>
       </div>
-      <div className="mt-10 justify-center w-screen h-screen grid px-3 grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-2 lg:px-30">
-        <div className="flex object-fill bg-no-repeat size-full lg:bg-cover bg-center col-span-2 row-span-2 items-end rounded-[10px] bg-[url(@/assets/about/bali.png)]">
-          <p className="ml-5 absolute align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
+      <div className="mt-10 grid h-screen w-full grid-cols-2 grid-rows-4 justify-center gap-2 px-3 lg:grid-cols-4 lg:grid-rows-2 lg:px-30">
+        <div className="col-span-2 row-span-2 flex size-full items-end rounded-[10px] bg-[url(@/assets/about/bali.png)] bg-center bg-no-repeat object-fill lg:bg-cover">
+          <p className="absolute ml-5 align-text-bottom leading-[70px] font-semibold text-white lg:text-4xl">
             Bali
           </p>
         </div>
-        <div className="grid col-span-2 size-full items-end rounded-[10px] bg-[url(@/assets/about/dubai.png)] lg:bg-cover bg-no-repeat">
-            <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
-              Dubai
-            </p>
-          </div>
-          <div className="flex bg-no-repeat lg:bg-cover bg-center items-end rounded-[10px] bg-[url(@/assets/about/paris.png)]">
-              <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
-                Paris
-              </p>
-            </div>
-            <div className="flex  bg-no-repeat lg:bg-cover items-end rounded-[10px] bg-[url(@/assets/about/italy.png)]">
-              <p className="ml-5 align-text-bottom lg:text-4xl leading-[70px] font-semibold text-white">
-                Italy
-              </p>
-            </div>
+        <div className="col-span-2 grid size-full items-end rounded-[10px] bg-[url(@/assets/about/dubai.png)] bg-no-repeat lg:bg-cover">
+          <p className="ml-5 align-text-bottom leading-[70px] font-semibold text-white lg:text-4xl">
+            Dubai
+          </p>
+        </div>
+        <div className="flex items-end rounded-[10px] bg-[url(@/assets/about/paris.png)] bg-center bg-no-repeat lg:bg-cover">
+          <p className="ml-5 align-text-bottom leading-[70px] font-semibold text-white lg:text-4xl">
+            Paris
+          </p>
+        </div>
+        <div className="flex items-end rounded-[10px] bg-[url(@/assets/about/italy.png)] bg-no-repeat lg:bg-cover">
+          <p className="ml-5 align-text-bottom leading-[70px] font-semibold text-white lg:text-4xl">
+            Italy
+          </p>
         </div>
       </div>
+    </div>
   );
 };

@@ -11,13 +11,13 @@ const Subscribe = () => {
         and monthly newsletter
       </p>
 
-      <div className="rounded-full bg-white flex items-center px-1.5">
+      <div className="rounded-full bg-white flex items-center py-1 px-1.5">
         <input
           type="email"
-          className="px-[20px] py-[18px] outline-none xl:w-[676px]"
+          className="px-[20px] py-[18px] text-xs md:text-base outline-none xl:w-[676px]"
           placeholder="Type your  email here"
         />
-        <Button className="cursor-pointer rounded-full px-5 py-6 text-xl font-semibold hover:opacity-60 active:opacity-80">
+        <Button className="cursor-pointer rounded-full px-5 py-6 text-lg md:text-xl font-semibold hover:opacity-60 active:opacity-80">
           Subscribe
         </Button>
       </div>
