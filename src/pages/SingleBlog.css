@@ -1,0 +1,78 @@
+.container{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   justify-self: center;
+   gap: 8%;
+   border-radius: 10px;
+}
+.recentPost{
+   display: flex;
+   flex-direction: column;
+   height: 514px;
+   width: 75%;
+   box-shadow: 2px 3px 10px 2px rgba(213, 213, 213, 0.481);
+   margin-bottom: 50px;
+   border-radius: 10px;
+}
+.catagories{
+   height: 390px;
+   width: 75%;
+   box-shadow: 2px 3px 10px 2px rgba(213, 213, 213, 0.481);
+   margin-bottom: 50px;
+   border-radius: 10px;
+}
+.contact{
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+   height: 382px;
+   color: white;
+   background-color: black;
+   border-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+   .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .recentPost{
+      margin-top: 30px;
+      width: 100%;
+   }
+   .catagories{
+      width: 100%;
+   }
+   .contact{
+      width: 100%;
+   }
+   .container{
+      gap: 0%;
+   }
+   
+}
+@media screen and (max-width: 500px) {
+   .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+   }
+   .recentPost{
+      margin-top: 30px;
+      width: 100%;
+   }
+   .catagories{
+      width: 100%;
+   }
+   .contact{
+      width: 100%;
+   }
+   .container{
+      gap: 0%;
+   }
+   
+}
+

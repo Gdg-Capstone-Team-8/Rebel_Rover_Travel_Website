@@ -1,5 +1,5 @@
-import Destination from "@/models/Destination";
 import axios, { AxiosError } from "axios";
+import Destination from "@/models/Destination";
 import { useEffect, useState } from "react";
 
 const useDestinations = () => {
