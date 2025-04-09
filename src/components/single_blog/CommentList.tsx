@@ -19,7 +19,7 @@ const CommentList: React.FC = () => {
   }, []);
 
   return (
-    <div className="mx-auto max-w-md bg-white p-4 text-black">
+    <div className="bg-white mt-12 text-black">
       <h2 className="mb-2 text-lg font-bold">Comments</h2>
       {comments.length === 0 ? (
         <p className="text-sm text-gray-500">No comments yet.</p>

@@ -7,6 +7,8 @@ import img2 from "@/assets/img2.svg";
 import img3 from "@/assets/img3.svg";
 import img4 from "@/assets/img4.svg";
 import img5 from "@/assets/img5.svg";
+import CommentList from "@/components/single_blog/CommentList";
+import CommentForm from "@/components/single_blog/Reply";
 const SingleBlog = () => {
   return (
     <>
@@ -17,29 +19,29 @@ const SingleBlog = () => {
           marginBottom: "120px",
         }}
       >
-        <h1 className="font-poppins mb-6 text-center text-4xl font-bold text-white drop-shadow-xl drop-shadow-[#11111196] md:text-6xl">
+        <h1 className="font-poppins mb-6 justify-center text-center text-4xl font-bold text-white drop-shadow-xl drop-shadow-[#11111196] md:text-6xl">
           Travel Stories For Now and the Future
         </h1>
-        <div className="space-y-2 text-lg">
-          <pre className="inline-flex items-center space-x-2">
+        <div className="flex flex-wrap gap-2 gap-y-2 px-4 text-center text-lg">
+          <div className="flex items-center space-x-2">
             <FaUser className="text-opacity-75 text-xl text-white" />
             <span className="text-opacity-75 text-xl text-white">Hasmar</span>
-          </pre>
-          <pre className="inline-flex items-center space-x-2">
+          </div>
+          <div className="flex items-center space-x-2">
             <FaCalendarAlt className="text-opacity-75 text-xl text-white" />
             <span className="text-opacity-75 text-xl text-white">
               January 18, 2021
             </span>
-          </pre>
-          <pre className="inline-flex items-center space-x-2">
+          </div>
+          <div className="flex items-center space-x-2">
             <FaFolder className="text-opacity-75 text-xl text-white" />
             <span className="text-opacity-75 text-xl text-white">
               Stories, Tips
             </span>
-          </pre>
+          </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container min-h-max">
         <div className="section1">
           <img
             style={{ marginBottom: "30px" }}
@@ -51,7 +53,7 @@ const SingleBlog = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            redivhenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -219,6 +221,10 @@ const SingleBlog = () => {
               <h3 className="text-sm font-medium">contact@domain.com</h3>
             </div>
           </div>
+        </div>
+        <div className="mb-30">
+          <CommentForm />
+          <CommentList />
         </div>
       </div>
     </>
