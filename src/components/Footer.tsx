@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
+      {/*Logo with text*/}
       <div className="flex flex-col flex-wrap items-start justify-around gap-x-3 gap-y-6 px-6 py-9 md:flex-row">
         <div className="w-[437px] md:w-[500px]">
           <img src={logo} className="w-[300px]" alt="rebel rover logo" />
@@ -43,7 +44,7 @@ const Footer = () => {
         {/*Quick links*/}
         <div className="">
           <h1 className="mb-2 text-xl font-bold">Quick links</h1>
-          <ul className="flex flex-col gap-2 text-[#6C6C6C] *:text-[1.125rem] *:font-[500]">
+          <ul className="flex flex-col gap-2 text-[#6C6C6C] *:text-[1.125rem] *:font-[500] *:hover:underline">
             <Link to={""}>Home</Link>
             <Link to={"/about"}>About us</Link>
             <Link to={"/package"}>Package</Link>
