@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
+import Testimonial from '@/models/Testimonial';
 
-interface Testimonial {
-  id: number;
-  name: string;
-  role: string;
-  image: string;
-  rating: number;
-  comment: string;
-}
 
 const testimonials: Testimonial[] = [
   {
@@ -97,7 +90,7 @@ const TestimonialSection: React.FC = () => {
   );
 
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <div className="py-20 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start mb-16">
@@ -153,7 +146,7 @@ const TestimonialSection: React.FC = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

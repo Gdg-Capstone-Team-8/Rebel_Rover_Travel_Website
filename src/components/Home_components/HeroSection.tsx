@@ -2,7 +2,7 @@ import ExploreFilter from "./ExploreFilter";
 
 export default function HeroSection() {
   return (
-    <section className="flex h-[85vh] items-end justify-center bg-[url(@/assets/homeimage.jpg)] bg-cover bg-bottom bg-no-repeat pb-12 md:pb-28">
+    <section className="flex h-screen items-end justify-center bg-[url(@/assets/homeimage.jpg)] bg-cover bg-bottom bg-no-repeat pb-12 md:pb-28">
       {/* Overlay Content */}
       <div className="flex w-full flex-col gap-y-3 px-2 md:pl-16 lg:pl-24">
         {/* Text Content - Left Aligned */}

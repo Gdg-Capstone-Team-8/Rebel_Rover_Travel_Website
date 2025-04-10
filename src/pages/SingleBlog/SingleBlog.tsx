@@ -13,7 +13,7 @@ const SingleBlog = () => {
   return (
     <>
       <div
-        className="flex min-h-[85vh] flex-col items-center justify-center bg-cover bg-center"
+        className="flex min-h-screen flex-col items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           marginBottom: "120px",
