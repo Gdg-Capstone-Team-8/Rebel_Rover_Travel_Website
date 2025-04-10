@@ -9,7 +9,7 @@ export default defineConfig({
     hmr: true,
     watch: {
       usePolling: true,
-      interval: 100,
+      interval: 50,
     },
   },
   plugins: [react(), tailwindcss()],

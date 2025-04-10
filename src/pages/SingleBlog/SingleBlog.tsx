@@ -41,7 +41,7 @@ const SingleBlog = () => {
           </div>
         </div>
       </div>
-      <div className="container min-h-max">
+      <div className="container min-h-max md:ml-18">
         <div className="section1">
           <img
             style={{ marginBottom: "30px" }}
