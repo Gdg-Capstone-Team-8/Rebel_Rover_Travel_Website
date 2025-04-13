@@ -2,12 +2,12 @@ import ExploreFilter from "./ExploreFilter";
 
 export default function HeroSection() {
   return (
-    <section className="flex h-screen items-end justify-center bg-[url(@/assets/homeimage.jpg)] bg-cover bg-bottom bg-no-repeat pb-12 md:pb-28">
+    <section className="flex h-[85vh] md:h-[95vh] xl:h-screen justify-center bg-[url(@/assets/homeimage.jpg)] bg-cover bg-bottom bg-no-repeat pb-28 md:pb-28">
       {/* Overlay Content */}
-      <div className="flex w-full flex-col gap-y-3 px-2 md:pl-16 lg:pl-24">
+      <div className="flex w-full self-end flex-col gap-y-3 px-2 md:pl-16 lg:pl-24">
         {/* Text Content - Left Aligned */}
         <div className="flex flex-1 flex-col items-start justify-center gap-y-8">
-          <h1 className="mb-2 self-center text-center text-5xl font-bold text-white drop-shadow-[0px_4px_4px] drop-shadow-[rgba(0,0,0,0.25)] md:mb-3 md:self-start md:text-left md:text-6xl xl:text-8xl">
+          <h1 className="mb-2 self-center text-center text-4xl font-bold text-white drop-shadow-[0px_4px_4px] drop-shadow-[rgba(0,0,0,0.25)] md:mb-3 md:self-start md:text-left md:text-6xl xl:text-8xl">
             Make in <br /> your journey.
           </h1>
           <p className="max-w-md self-center text-center text-[#cecece] drop-shadow-[0px_4px_4px] drop-shadow-[rgba(0,0,0,0.25)] md:self-start md:text-left md:text-lg">

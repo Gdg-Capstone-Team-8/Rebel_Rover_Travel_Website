@@ -11,7 +11,7 @@ const Navbar = () => {
         <img src={logo} className="w-max" alt="rebel rover logo" />
       </div>
       {/*navbar*/}
-      <nav>
+      <nav className="flex items-center">
         <div className="md:[display:none]">
           <CustomDrawer />
         </div>

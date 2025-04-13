@@ -1,51 +1,40 @@
 # Rebel Rover Travel Website
 
-## Project Overview
-Rebel Rover is a modern travel website built using react.js. The project aims to provide users with an intuitive platform to explore travel destinations, book trips, and access travel-related resources. The website is designed to be responsive, fast, and user-friendly, leveraging the power of react.js.
+Rebel Rover is a modern travel website built using Next.js. It provides users with an intuitive platform to explore and book travel destinations with ease.
 
 ## Features
 
-### 1. **PackagePage**
-- A dedicated page to display travel packages.
-- Includes dynamic rendering of package details.
-- Styled for a user-friendly experience.
+- **Home Page**: A welcoming landing page with featured destinations and a call-to-action for users to start exploring.
+- **Destinations Page**: A comprehensive list of travel destinations with detailed descriptions, images, and filters for easy navigation.
+- **Search Results Page**: Displays search results based on user preferences, making it easier to find the perfect destination.
+- **Booking Page**: A user-friendly interface for selecting travel packages and completing bookings securely.
+- **About Us Page**: Information about the mission and vision of Rebel Rover, along with team details.
+- **Contact Page**: A form for users to reach out with inquiries or feedback.
 
-### 2. **Reusable Components**
-- **Subscribe.tsx**: A subscription component that can be used across multiple pages.
-  - Includes a form for users to subscribe to newsletters or updates.
-  - Fully responsive and customizable.
+## Technologies Used
+- **React**: Component-based UI library.
+- **ShadCN UI**: A library of accessible and customizable UI components.
+- **Axios API Integration**: Fetching data from external APIs.
+- **Vercel**: Deployment and hosting platform.
 
-## Installation
+## Getting Started
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Switch to this branch:
-   ```bash
-   git checkout <branch-name>
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-- To view the `PackagePage`, navigate to `/packages` in the application.
-- Use the `Subscribe` component by importing it into any page:
-  ```tsx
-  import Subscribe from '../components/Subscribe';
-
-  const ExamplePage = () => (
-    <div>
-      <Subscribe />
-    </div>
-  );
-
-  export default ExamplePage;
+  ```bash
+  git clone https://github.com/your-username/rebel-rover-travel-website.git
   ```
+2. Install dependencies:
+  ```bash
+  npm install
+  ```
+3. Run the development server:
+  ```bash
+  npm run dev
+  ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Contributing
 
-Feel free to submit issues or pull requests for improvements.
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+
+## Deployment

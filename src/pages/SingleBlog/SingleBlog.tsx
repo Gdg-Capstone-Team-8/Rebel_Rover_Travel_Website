@@ -13,7 +13,7 @@ const SingleBlog = () => {
   return (
     <>
       <div
-        className="flex min-h-screen flex-col items-center justify-center bg-cover bg-center"
+        className="flex h-[85vh] md:h-[95vh] xl:h-screen flex-col items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           marginBottom: "120px",
@@ -41,7 +41,7 @@ const SingleBlog = () => {
           </div>
         </div>
       </div>
-      <div className="container min-h-max md:ml-18">
+      <div className="container min-h-max px-3 xl:ml-22">
         <div className="section1">
           <img
             style={{ marginBottom: "30px" }}
@@ -118,7 +118,7 @@ const SingleBlog = () => {
             </div>
           </div>
         </div>
-        <div className="section2">
+        <div className="section2 scale-75 md:scale-100">
           <div className="recentPost">
             <h1
               style={{
@@ -139,7 +139,7 @@ const SingleBlog = () => {
                   className="h-[99px] w-[149px] rounded object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-base font-medium md:text-lg">
                     Travel Stories for Now and the Future
                   </h3>
                   <p className="text-sm text-gray-500">14 Dec 2022</p>
@@ -152,7 +152,7 @@ const SingleBlog = () => {
                   className="h-[99px] w-[149px] rounded object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-base font-medium md:text-lg">
                     9 Popular Travel Destination on Sale in 2022
                   </h3>
                   <p className="text-sm text-gray-500">14 Dec 2022</p>
@@ -165,7 +165,7 @@ const SingleBlog = () => {
                   className="h-[99px] w-[149px] rounded object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-base font-medium md:text-lg">
                     How Are We Going to Travel in 2022?
                   </h3>
                   <p className="text-sm text-gray-500">14 Dec 2022</p>
@@ -205,20 +205,22 @@ const SingleBlog = () => {
             </ul>
           </div>
           <div className="contact rounded-lg bg-black p-6 text-white">
-            <h1 className="mt-10 mb-6 px-10 text-2xl font-semibold">
+            <h1 className="mt-5 mb-6 px-10 text-2xl font-semibold">
               Have Any Question?
             </h1>
-            <h3 className="mb-6 px-10 text-sm font-light">
+            <h3 className="mb-6 px-10 text-xs md:text-sm font-light">
               Do not hesitate to give us a call. We are an expert team and we
               are happy to talk to you.
             </h3>
             <div className="mb-4 flex items-center px-10">
               <FaPhoneAlt className="text-opacity-75 mr-4 text-white" />
-              <h3 className="text-sm font-medium">+62 6943 6956</h3>
+              <h3 className="text-xs font-medium md:text-sm">+62 6943 6956</h3>
             </div>
             <div className="flex items-center px-10">
               <FaEnvelope className="text-opacity-75 mr-4 text-white" />
-              <h3 className="text-sm font-medium">contact@domain.com</h3>
+              <h3 className="text-xs font-medium md:text-sm">
+                contact@domain.com
+              </h3>
             </div>
           </div>
         </div>

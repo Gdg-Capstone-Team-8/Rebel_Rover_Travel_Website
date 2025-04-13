@@ -5,7 +5,7 @@ function ContactForm() {
   return (
     <div>
       <div
-        className="color: var(--color-white) flex h-screen w-full flex-col place-items-center items-center justify-center"
+        className="color: var(--color-white) flex h-[85vh] w-full flex-col place-items-center items-center justify-center md:h-[95vh] xl:h-screen"
         style={{
           backgroundImage: `url(${myImage})`,
           backgroundSize: "cover",
@@ -33,20 +33,6 @@ function ContactForm() {
           </svg>
           Contact
         </p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          className="lucide lucide-chevron-right"
-        >
-          <path d="m9 18 6-6-6-6"></path>
-        </svg>
       </div>
       <div className="w-full max-w-250 px-4 py-10 sm:text-sm md:mx-auto md:py-10">
         <div className="">

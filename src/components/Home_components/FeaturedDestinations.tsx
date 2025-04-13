@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import baliImage from "@/assets/bali.jpg";
 import parisImage from "@/assets/paris.jpg";
 import phillipines from "@/assets/phillipines.jpg";
-import queenstownImage from "@/assets/queenstown.jpg";
+import queenstownImage from "@/assets/Queenstown.jpg";
 import seoulImage from "@/assets/southkorea.jpg";
 
 const destinations = [ 
