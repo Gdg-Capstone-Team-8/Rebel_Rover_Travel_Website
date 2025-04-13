@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const ExploreFilter = () => {
   return (
-    <div className="mt-4 flex max-w-[700px] flex-wrap gap-y-4 justify-center rounded-2xl items-center sm:rounded-full bg-white p-2 text-xs">
+    <div className="mt-4 flex max-w-[300px] sm:max-w-[700px] flex-wrap gap-y-4 rounded-2xl items-center sm:rounded-full bg-white p-2 text-xs">
       {/* Location */}
       <div className="flex-1">
         <Select>
