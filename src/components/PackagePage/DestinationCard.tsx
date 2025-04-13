@@ -15,18 +15,18 @@ const DestinationCard = ({
   destination: Destination;
 }) => {
   const imageUrl = (imgNum: string) =>
-    `src/assets/Package/images/${imgNum}.jpg`;
+    `/assets/images/${imgNum}.jpg`;
 
   const rating = Math.random() * 2 + 3;
 
   return (
     <Card className="group pt-0 shadow-xl">
       <div className="overflow-hidden rounded-t-lg">
-        <img
+        {<img
           src={imageUrl(image)}
           alt={name}
           className="h-[319px] w-[444px] bg-cover duration-300 group-hover:scale-120"
-        />
+        />}
       </div>
       <CardHeader className="flex-2">
         <CardTitle className="mb-7 flex items-center justify-between">

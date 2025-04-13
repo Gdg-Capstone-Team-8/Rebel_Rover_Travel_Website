@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Subscribe = () => {
   return (
-    <div className="flex h-[642px] px-12 w-full flex-col items-center justify-center bg-[url('src/assets/world.svg')] bg-cover bg-no-repeat text-center break-words">
+    <div className="flex h-[642px] px-12 w-full flex-col items-center justify-center bg-[url('@/assets/world.svg')] bg-cover bg-no-repeat text-center break-words">
       <h1 className="mb-6 text-4xl xl:text-6xl font-semibold text-white">
         Subscribe to get special price
       </h1>
