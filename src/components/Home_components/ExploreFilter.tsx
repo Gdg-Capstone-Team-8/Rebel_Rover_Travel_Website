@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 
 const ExploreFilter = () => {
   return (
-    <div className="mt-4 flex max-w-[300px] sm:max-w-[700px] flex-wrap gap-y-4 rounded-2xl items-center sm:rounded-full bg-white p-2 text-xs">
+    <div className="mt-4 flex w-[calc(100%-16px)]  items-center justify-between gap-0.5 rounded-2xl bg-white p-1.5 text-xs sm:max-w-[700px] sm:gap-2 sm:rounded-full sm:p-2">
       {/* Location */}
-      <div className="flex-1">
+      <div className="flex-1 min-w-[90px] max-w-[110px] sm:max-w-none sm:flex-auto">
         <Select>
-          <SelectTrigger className="w-full border-none bg-transparent py-2 text-xs text-gray-800 shadow-none focus:outline-none">
+          <SelectTrigger className="border-none bg-transparent p-1 text-[0.7rem] text-gray-800 shadow-none focus:outline-none sm:p-2 sm:text-sm">
             <SelectValue placeholder="Location" />
           </SelectTrigger>
           <SelectContent>
@@ -20,21 +20,21 @@ const ExploreFilter = () => {
         </Select>
       </div>
 
-      {/* Divider */}
-      <div className="h-5 w-px bg-gray-300"></div>
+      {/*  Divider */}
+      <div className="h-4 w-[0.5px] bg-gray-200 flex-shrink-0"></div>
 
-      {/* Date */}
-      <div className="flex-1 *:w-full">
+      {/* Date  */}
+      <div className="flex-1 min-w-[80px] max-w-[100px] sm:max-w-none sm:flex-auto">
         <PopoverDate />
       </div>
 
-      {/* Divider */}
-      <div className="h-5 w-px bg-gray-300"></div>
+      {/*  Divider */}
+      <div className="h-4 w-[0.5px] bg-gray-200 flex-shrink-0"></div>
 
-      {/* People */}
-      <div className="flex-1">
+      {/* People  */}
+      <div className="flex-1 min-w-[60px] max-w-[80px] sm:max-w-none sm:flex-auto">
         <Select>
-          <SelectTrigger className="w-full border-none bg-transparent py-2 text-xs text-gray-800 shadow-none focus:outline-none">
+          <SelectTrigger className="border-none bg-transparent p-1 text-[0.7rem] text-gray-800 shadow-none focus:outline-none sm:p-2 sm:text-sm">
             <SelectValue placeholder="People" />
           </SelectTrigger>
           <SelectContent>
@@ -47,7 +47,7 @@ const ExploreFilter = () => {
       </div>
 
       {/* Explore Button */}
-      <Button className="font-semiBold cursor-pointer rounded-full hover:opacity-65 sm:py-6 sm:text-xl">
+      <Button className="flex-shrink-0 rounded-full px-2 py-1 text-[0.7rem] hover:opacity-65 sm:px-4 sm:py-2 sm:text-sm">
         Explore Now
       </Button>
     </div>
