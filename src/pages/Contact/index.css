@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+  h1,
+  .text-h1 {
+    font-size: 2.5rem;
+  }
+
+  h2,
+  .text-h2 {
+    font-size: 2rem;
+  }
+
+  h3,
+  .text-h3 {
+    font-size: 1.75rem;
+  }
+
+  p,
+  .text-base {
+    font-size: 1rem;
+  }
+
+  .mobile-text-sm {
+    font-size: 0.875rem;
+  }
+
+  .px-16 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .py-16 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .mt-16 {
+    margin-top: 2rem;
+  }
+
+  .mb-16 {
+    margin-bottom: 2rem;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1,
+  .text-h1 {
+    font-size: 2rem;
+  }
+
+  /* Add more styles for smaller screens if needed */
+}
