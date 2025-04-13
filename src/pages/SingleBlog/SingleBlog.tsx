@@ -1,12 +1,12 @@
 import { FaUser, FaCalendarAlt, FaFolder } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import backgroundImage from "@/assets/Travel stories background.svg";
-import img1 from "@/assets/img1.svg";
+import backgroundImage from "/assets/Travel stories background.svg";
+import img1 from "/assets/img1.svg";
 import "./SingleBlog.css";
-import img2 from "@/assets/img2.svg";
-import img3 from "@/assets/img3.svg";
-import img4 from "@/assets/img4.svg";
-import img5 from "@/assets/img5.svg";
+import img2 from "/assets/img2.svg";
+import img3 from "/assets/img3.svg";
+import img4 from "/assets/img4.svg";
+import img5 from "/assets/img5.svg";
 import CommentList from "@/components/single_blog/CommentList";
 import CommentForm from "@/components/single_blog/Reply";
 const SingleBlog = () => {

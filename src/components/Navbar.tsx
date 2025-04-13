@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo1 1.svg";
+import logo from "/assets/logo1 1.svg";
 import CustomDrawer from "./CustomDrawer";
 
 const Navbar = () => {

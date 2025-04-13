@@ -11,7 +11,7 @@ const Package = () => {
   return (
     <div>
       {/*The image with a text*/}
-      <div className="flex h-[85vh] md:h-[95vh] xl:h-screen w-full flex-col items-center justify-center bg-[url(@/assets/Package/unsplash_dHHhDXaCh70.svg)] bg-cover bg-right bg-no-repeat">
+      <div className="flex h-[85vh] md:h-[95vh] xl:h-screen w-full flex-col items-center justify-center bg-[url(/assets/Package/unsplash_dHHhDXaCh70.svg)] bg-cover bg-right bg-no-repeat">
         <h1 className="text-4xl font-bold text-white drop-shadow-xl drop-shadow-[#11111196] md:text-6xl">
           Travel Packages
         </h1>
@@ -58,7 +58,7 @@ const Package = () => {
       </div>
 
       {/* Plane display */}
-      <div className="h-100 w-full bg-[url(@/assets/Package/plane.jpg)] bg-cover bg-top bg-no-repeat" />
+      <div className="h-100 w-full bg-[url(/assets/Package/plane.jpg)] bg-cover bg-top bg-no-repeat" />
 
       {/* Tips And Tricks */}
       <div className="px-6 py-30 md:px-16">
@@ -83,7 +83,7 @@ const Package = () => {
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
           />
           <TipArticleCard
-            image="src/assets/Package/family.jpg"
+            image="@/assets/Package/family.jpg"
             className="md:row-span-2 xl:col-span-2"
             topic="Stories | Tips"
             title="Travel Stories For Now and the Future"

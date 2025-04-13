@@ -1,4 +1,4 @@
-import myImage from "@/assets/Package/images/cont.jpg";
+import myImage from "/assets/Package/images/cont.jpg";
 import "./index.css";
 
 function ContactForm() {

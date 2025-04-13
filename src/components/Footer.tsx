@@ -1,8 +1,8 @@
-import insta from "@/assets/insta.svg";
-import logo from "@/assets/logo 2.svg";
-import twit from "@/assets/twit.svg";
-import facebook from "@/assets/Vector.svg";
-import youtube from "@/assets/yt.svg";
+import insta from "/assets/insta.svg";
+import logo from "/assets/logo 2.svg";
+import twit from "/assets/twit.svg";
+import facebook from "/assets/Vector.svg";
+import youtube from "/assets/yt.svg";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import Subscribe from "./Subscribe";

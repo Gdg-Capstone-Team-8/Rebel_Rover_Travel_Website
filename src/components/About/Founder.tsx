@@ -1,4 +1,4 @@
-import founder from "../../assets/about/unsplash_7BjmDICVloE.png";
+import founder from "/assets/about/unsplash_7BjmDICVloE.png";
 export const Founder = () => {
   return (
     <div className="mt-10 flex min-h-[70vh] max-h-max w-full justify-center items-center flex-col gap-8 p-3 sm:mt-25 sm:h-[63.3vh] sm:flex-row sm:gap-20">

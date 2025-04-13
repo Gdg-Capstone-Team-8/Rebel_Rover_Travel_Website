@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import Icon1 from "../../assets/best_service-icon.svg";
-import Icon2 from "../../assets/dollar_sign_Icon.svg";
-import Icon3 from "../../assets/tropy_icon.svg";
+import Icon1 from "/assets/best_service-icon.svg";
+import Icon2 from "/assets/dollar_sign_Icon.svg";
+import Icon3 from "/assets/tropy_icon.svg";
 
 interface ServiceCard {
   icon: string;

@@ -1,8 +1,8 @@
-import katana from "../../assets/Katana.svg";
-import travava from "../../assets/travava.svg";
-import bigui from "../../assets/bigui.svg";
-import booking from "../../assets/Booking.com.svg";
-import jakmaen from "../../assets/Jakmaen.svg";
+import katana from "/assets/Katana.svg";
+import travava from "/assets/travava.svg";
+import bigui from "/assets/bigui.svg";
+import booking from "/assets/Booking.com.svg";
+import jakmaen from "/assets/Jakmaen.svg";
 
 const TourPartners = () => {
   const partners = [

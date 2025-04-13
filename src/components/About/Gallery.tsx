@@ -10,22 +10,22 @@ export const Gallery = () => {
         </p>
       </div>
       <div className="mt-10 grid h-screen w-screen grid-cols-2 grid-rows-4 justify-center gap-2 px-3 lg:grid-cols-4 lg:grid-rows-2 lg:px-30">
-        <div className="col-span-2 row-span-2 flex items-end rounded-[10px] bg-[url(@/assets/about/bali.png)] bg-cover bg-center bg-no-repeat object-fill">
+        <div className="col-span-2 row-span-2 flex items-end rounded-[10px] bg-[url(/assets/about/bali.png)] bg-cover bg-center bg-no-repeat object-fill">
           <p className="ml-5 w-full leading-[70px] font-semibold text-white lg:align-text-bottom lg:text-4xl">
             Bali
           </p>
         </div>
-        <div className="col-span-2 grid items-end rounded-[10px] bg-[url(@/assets/about/dubai.png)] bg-cover bg-center bg-no-repeat">
+        <div className="col-span-2 grid items-end rounded-[10px] bg-[url(/assets/about/dubai.png)] bg-cover bg-center bg-no-repeat">
           <p className="ml-5 w-full align-text-bottom font-semibold text-white lg:text-4xl lg:leading-[70px]">
             Dubai
           </p>
         </div>
-        <div className="flex items-end rounded-[10px] bg-[url(@/assets/about/paris.png)] bg-cover bg-center bg-no-repeat">
+        <div className="flex items-end rounded-[10px] bg-[url(/assets/about/paris.png)] bg-cover bg-center bg-no-repeat">
           <p className="ml-5 w-full align-text-bottom font-semibold text-white lg:text-4xl lg:leading-[70px]">
             Paris
           </p>
         </div>
-        <div className="flex items-end rounded-[10px] bg-[url(@/assets/about/italy.png)] bg-no-repeat bg-cover">
+        <div className="flex items-end rounded-[10px] bg-[url(/assets/about/italy.png)] bg-no-repeat bg-cover">
           <p className="ml-5 w-full align-text-bottom font-semibold text-white lg:text-4xl lg:leading-[70px]">
             Italy
           </p>
