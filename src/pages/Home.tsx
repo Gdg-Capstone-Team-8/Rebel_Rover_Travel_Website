@@ -9,7 +9,8 @@ const Home = () => {
     <main>
       <div className="mb-20">
         <HeroSection />
-        <ScrollCards />
+        <ScrollCards /> 
+
       </div>
       <WhyChooseUs />
       <div className="bg-white py-30">
