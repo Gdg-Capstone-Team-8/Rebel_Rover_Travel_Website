@@ -83,7 +83,7 @@ const Package = () => {
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
           />
           <TipArticleCard
-            image="@/assets/Package/family.jpg"
+            image="/assets/Package/family.jpg"
             className="md:row-span-2 xl:col-span-2"
             topic="Stories | Tips"
             title="Travel Stories For Now and the Future"
