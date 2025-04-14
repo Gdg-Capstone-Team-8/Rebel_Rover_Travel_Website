@@ -1,6 +1,6 @@
 # Rebel Rover Travel Website
 
-Rebel Rover is a modern travel website built using Next.js. It provides users with an intuitive platform to explore and book travel destinations with ease.
+Rebel Rover is a modern travel website built using React.js. It provides users with an intuitive platform to explore and book travel destinations with ease.
 
 ## Features
 
