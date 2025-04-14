@@ -46,7 +46,9 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
-          <Search className="cursor-pointer text-[1.2rem] font-semibold text-white hover:opacity-100" />
+          <NavLink to={"/search"}>
+            <Search className="cursor-pointer text-[1.2rem] font-semibold text-white hover:opacity-100" />
+          </NavLink>
         </ul>
       </nav>
     </header>

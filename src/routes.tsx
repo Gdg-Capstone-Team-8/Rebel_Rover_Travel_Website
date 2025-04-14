@@ -6,6 +6,7 @@ import Package from "./pages/Package";
 import SingleBlog from "./pages/SingleBlog";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
+import SearchPage from "./pages/SearchPage";
 
 const routes = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const routes = createBrowserRouter([
       { path: "/package", element: <Package /> },
       { path: "/blog", element: <SingleBlog /> },
       { path: "/contact", element: <Contact /> },
+      { path: "/search", element: <SearchPage /> },
     ],
   },
 ]);

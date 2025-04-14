@@ -8,25 +8,27 @@ import {
 } from "../ui/card";
 import { Button } from "../ui/button";
 import RatingStars from "./RatingStar";
+import { toast } from "sonner";
 
 const DestinationCard = ({
   destination: { name, country, description, image, price },
 }: {
   destination: Destination;
 }) => {
-  const imageUrl = (imgNum: string) =>
-    `/assets/images/${imgNum}.jpg`;
+  const imageUrl = (imgNum: string) => `/assets/images/${imgNum}.jpg`;
 
   const rating = Math.random() * 2 + 3;
 
   return (
     <Card className="group pt-0 shadow-xl">
       <div className="overflow-hidden rounded-t-lg">
-        {<img
-          src={imageUrl(image)}
-          alt={name}
-          className="h-[319px] w-[444px] bg-cover duration-300 group-hover:scale-120"
-        />}
+        {
+          <img
+            src={imageUrl(image)}
+            alt={name}
+            className="h-[319px] w-[444px] bg-cover duration-300 group-hover:scale-120"
+          />
+        }
       </div>
       <CardHeader className="flex-2">
         <CardTitle className="mb-7 flex items-center justify-between">
@@ -43,7 +45,14 @@ const DestinationCard = ({
       </CardHeader>
       <CardFooter className="h-[inherit] w-full flex-1 items-center justify-between">
         <RatingStars rating={rating} />
-        <Button className="cursor-pointer rounded-full px-6 py-7 text-xl font-semibold hover:opacity-60 active:opacity-80">
+        <Button
+          onClick={() =>
+            toast("Destination have been booked", {
+              description: description,
+            })
+          }
+          className="cursor-pointer rounded-full px-6 py-7 text-xl font-semibold hover:opacity-60 active:opacity-80"
+        >
           Book now
         </Button>
       </CardFooter>
